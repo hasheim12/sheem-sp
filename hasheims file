@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+        >-->
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>meme generator </title>
+    
+    <styles>
+      
+      <div class="meme-generator"label{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;}
+        
+      class="meme-generator"label{
+        width:100%;
+        box-sizing:border-box;
+        margin-bottom: 20px;
+      }
+        ></div>
+       
+    </styles>
+ </head>
+ <body> 
+   <h1>first website from hasheim
+   </h1>
+   <h2 style = color:blue>header 2
+  </h2>
+  <p 
+  style = color:darkgreen (76, 41, 41) style = font = style:italic;> this page is a link to google searech</p>
+  <p> click <a href= "https://www.google.com" > here </a> to go to google  </p>
+
+
+<div class="meme-generator">
+  <button class="generate-meme-btn">generate meme</button>
+  <h3 class="meme-title">loading...</h3>
+  <img scr="" alt="">
+  <div class="meme-author"></div>
+<label>select an image</label>
+<input type="file" name="" id="image fileInput">
+<label>top text</label>
+<input type="text" id="toptextinput">
+<label>bottom text</label>
+<input type="text" id="bottomtextinput">
+
+<canvas id="meme"></canvas>
+</div>
+<script language = "javascript" type = "text/javascript">
+ alert("this is an alert")
+ document.write("first script!")
+var course = "csc102"
+var numCredits = 3
+var passing = true
+document.write("this class is "+ course)
+document.write("<br/>")
+document.write("# credits + " + numCredits)
+document.write("are you missing? "+ passing)
+</script>
+    
+ </body>
+ </html>
+
+  
+  css
+  .meme-generator {
+    font-family:"roboto", sans-serif;
+    text-align: center;
+}
+
+.meme-generator img {
+    height: 430px;
+    object-fit: cover;
+}
+
+.meme-generator .generate-meme-btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #222;
+    border-right:4px solid #222;
+    margin:24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    background: #fff;
+    cursor: pointer;
+    transition:all 400ms ease;
+}
+
+.meme-generator .generate-meme-btn:hover{
+    padding: 8px 36px;
+    border-left: 8px solid #222;
+    border-right:8px solid #222;
+    letter-spacing: 3px;
+}
+main js
+.meme-generator .meme-author {
+margin: 8px;
+}const generatememeB = document.queryselector(".meme-generator .generate-meme-btn") ;
+const memeIage = document.queryselector(".meme-generator img");
+const memetitle = document.queryselector(".meme-generator .meme-title");
+const memeAuthor = document.queryselector(".meme-generator .meme-author");
+
+generatememeBtn.addeventListener("click", generate\\
+)
